@@ -1,7 +1,7 @@
 # RSNA-MICCAI-Brain-Tumor-Radiogenomic-Classification
 Code used for kaggle RSNA-MICCAI Brain Tumor Radiogenomic Classification
 
-##255th place solution 
+## 255th place solution 
 
 ### Data preprocessing steps
 - Load T2w Images (T2w images provided best results during training)
@@ -11,7 +11,7 @@ Code used for kaggle RSNA-MICCAI Brain Tumor Radiogenomic Classification
 - Normalise
 - Zero centre
 
-###Training
+### Training
 
 - Trained a Resnet50 3D with a LR scheduler (factor 10, tolerance 5) Initial LR=1e-2, batch size = 16
 - Single fold cross validation
